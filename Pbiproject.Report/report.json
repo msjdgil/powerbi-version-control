@@ -29,8 +29,8 @@
         {
           "config": "{\"name\":\"5087002ed930cbca32a2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":32.78212152927415,\"y\":35.30382318537216,\"z\":0,\"width\":578.7305300744937,\"height\":385.8203533829958,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"DimProduct.SizeRange\",\"active\":true}],\"Values\":[{\"queryRef\":\"CountNonNull(DimProduct.SizeRange)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimProduct\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"SizeRange\"},\"Name\":\"DimProduct.SizeRange\",\"NativeReferenceName\":\"SizeRange\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"SizeRange\"}},\"Function\":5},\"Name\":\"CountNonNull(DimProduct.SizeRange)\",\"NativeReferenceName\":\"Count of SizeRange\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 385.82,
-          "width": 578.73,
+          "height": 185.82,
+          "width": 278.73,
           "x": 32.78,
           "y": 35.30,
           "z": 0.00
