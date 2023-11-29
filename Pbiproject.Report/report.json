@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -27,13 +27,22 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"5087002ed930cbca32a2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":32.88537549407115,\"y\":35.41501976284585,\"z\":0,\"width\":1182.608695652174,\"height\":650.1185770750988,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"DimProduct.SizeRange\",\"active\":true}],\"Values\":[{\"queryRef\":\"CountNonNull(DimProduct.SizeRange)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimProduct\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"SizeRange\"},\"Name\":\"DimProduct.SizeRange\",\"NativeReferenceName\":\"SizeRange\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"SizeRange\"}},\"Function\":5},\"Name\":\"CountNonNull(DimProduct.SizeRange)\",\"NativeReferenceName\":\"Count of SizeRange\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"5087002ed930cbca32a2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":32.78212152927415,\"y\":35.30382318537216,\"z\":0,\"width\":578.7305300744937,\"height\":385.8203533829958,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"DimProduct.SizeRange\",\"active\":true}],\"Values\":[{\"queryRef\":\"CountNonNull(DimProduct.SizeRange)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimProduct\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"SizeRange\"},\"Name\":\"DimProduct.SizeRange\",\"NativeReferenceName\":\"SizeRange\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"SizeRange\"}},\"Function\":5},\"Name\":\"CountNonNull(DimProduct.SizeRange)\",\"NativeReferenceName\":\"Count of SizeRange\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 650.12,
-          "width": 1182.61,
-          "x": 32.89,
-          "y": 35.42,
+          "height": 385.82,
+          "width": 578.73,
+          "x": 32.78,
+          "y": 35.30,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"7164da1f172a7a956879\",\"layouts\":[{\"id\":0,\"position\":{\"x\":658.8521877275435,\"y\":71.85013569868273,\"z\":2,\"width\":577.5124114648838,\"height\":616.8266366585027}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"DimProduct.ModelName\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(DimProduct.ModelName)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimProduct\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"ModelName\"},\"Name\":\"DimProduct.ModelName\",\"NativeReferenceName\":\"ModelName\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"ModelName\"}},\"Function\":5},\"Name\":\"CountNonNull(DimProduct.ModelName)\",\"NativeReferenceName\":\"Count of ModelName\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"ModelName\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 616.83,
+          "width": 577.51,
+          "x": 658.85,
+          "y": 71.85,
+          "z": 2.00
         }
       ],
       "width": 1280.00
